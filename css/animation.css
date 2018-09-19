@@ -1,0 +1,43 @@
+/*
+ *keyframes
+ *动画类*/
+.seal_action{
+	-webkit-animation: seal_act 0.5s linear forwards;
+	-ms-animation: seal_act 0.5s linear forwards;
+	-moz-animation: seal_act 0.5s linear forwards;
+	animation: seal_act 0.5s linear forwards;}
+/*盖章动作*/
+@-webkit-keyframes seal_act{
+	0%{-webkit-transform: scale(3);opacity: 1;}
+	100%{-webkit-transform: scale(1);opacity: 1;}
+}
+@-ms-keyframes seal_act{
+	0%{-ms-transform: scale(5);opacity: 1;}
+	100%{-ms-transform: scale(1);opacity: 1;}
+}
+@-moz-keyframes seal_act{
+	0%{-moz-transform: scale(5);opacity: 1;}
+	100%{-moz-transform: scale(1);opacity: 1;}
+}
+@keyframes seal_act{
+	0%{transform: scale(5);opacity: 1;}
+	100%{transform: scale(1);opacity: 1;}
+}
+
+/*分享图标动画*/
+@-webkit-keyframes up_act{
+	0%{-webkit-transform: translate(0,5px);}
+	100%{-webkit-transform: translate(0,-5px);}
+}
+@-ms-keyframes up_act{
+	0%{-ms-transform: translate(0,5px);}
+	100%{-ms-transform: translate(0,-5px);}
+}
+@-moz-keyframes up_act{
+	0%{-moz-transform: translate(0,5px);}
+	100%{-moz-transform: translate(0,-5px);}
+}
+@keyframes up_act{
+	0%{transform: translate(0,5px);}
+	100%{transform: translate(0,-5px);}
+}

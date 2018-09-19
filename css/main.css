@@ -1,0 +1,158 @@
+/*测评列表evalue_list*/
+/*title_con*/
+.title_con{position: absolute;z-index: 200;width: 100%;height: 40px;line-height: 40px;color: white;text-align: center;top: 0;left: 0;background: #00c7d6;}
+.title_con .btn_back{position: absolute;z-index: 10;width: 40px;height: 40px;top: 0;left: 0%;display: none;}
+.title_con .btn_back img{position: absolute;z-index: 1;height: 40%;width: auto;top: 30%;left: 30%;}
+.title_con .btn_close{position: absolute;z-index: 10;width: 40px;height: 40px;top: 0;left: 0%;display: none;}
+.title_con .btn_close img{position: absolute;z-index: 1;height: 40%;width: auto;top: 30%;left: 30%;}
+/*main*/
+.main{position: absolute;z-index: 1;width: 100%;height: 100%;top: 0;left: 0;box-sizing:border-box;border-top: 40px solid transparent;
+	background: #ffd742;}
+/*start_con*/
+.start_con{position: absolute;z-index: 100;width: 100%;height: 100%;top: 0;left: 0;display: block;}
+.game_intro{position: absolute;z-index: 1;width: 74%;height: 55%;left: 13%;top: 8%;}
+.game_intro .icon_pick_hole{position: absolute;z-index: 10;width: 100%;height: auto;top: 0%;left: 0%;}
+.game_intro .pick_hole_intro{position: absolute;z-index: 10;width: 74%;height: auto;top: 68%;left: 13%;}
+.btn_start_game{position: absolute;z-index: 10;width: 62%;height: auto;left: 19%;top: 71%;}
+
+/*cross_word_item*/
+.cross_word_item{position: absolute;z-index: 10;width: 90%;height: 80%;top: 12%;left: 5%;background: url(../img/white_bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;display: none;}
+.cross_word_item .time_con{position: absolute;z-index: 10;width: 60%;height: 36px;top: -35px;left: 20%;background: url(../img/time_bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;line-height: 35px;}
+.cross_word_item .time_con .icon_time{position: absolute;z-index: 10;height: 60%;width: auto;top: 20%;right: 55%;}
+.cross_word_item .time_con .s_time_num{position: absolute;z-index: 10;height: 35px;width: 50%;top: 0%;left: 50%;color: white;text-align: left;}
+.cross_word_item .question_tip{position: absolute;z-index: 10;width: 84%;height: 25px;left: 8%;top: 4%;line-height: 25px;text-align: left;}
+.cross_word_item .question_con{position: absolute;z-index: 10;width: 90%;height: 150px;left: 5%;top: 8%;margin-top: 35px;}
+.question_con .line1{position: absolute;z-index: 10;width: 100%;height: 60px;left: 0;top: 0;}
+.question_con .line2{position: absolute;z-index: 10;width: 100%;height: 60px;left: 0;top: 60px;}
+.bg_img{position: absolute;z-index: 1;width: 100%;height: 100%;top: 0;left: 0;}
+.cur{display: block !important;}
+.dis{display: none;}
+/*四字模式*/
+.line1 .que4:nth-child(1){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -103px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que4:nth-child(2){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -49px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que4:nth-child(3){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 5px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que4:nth-child(4){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 59px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que4:nth-child(1){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -103px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que4:nth-child(2){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -49px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que4:nth-child(3){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 5px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que4:nth-child(4){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 59px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+/*五字模式*/
+.line1 .que5:nth-child(1){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -120px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que5:nth-child(2){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -71px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que5:nth-child(3){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -22px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que5:nth-child(4){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 27px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line1 .que5:nth-child(5){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 76px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que5:nth-child(1){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -120px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que5:nth-child(2){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -71px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que5:nth-child(3){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -22px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que5:nth-child(4){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 27px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+.line2 .que5:nth-child(5){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 76px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;}
+/*七字模式*/
+.line1 .que7:nth-child(1){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -132px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(2){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -94px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(3){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -56px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(4){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -18px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(5){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 20px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(6){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 58px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line1 .que7:nth-child(7){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 96px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(1){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -132px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(2){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -94px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(3){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -56px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(4){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: -18px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(5){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 20px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(6){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 58px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.line2 .que7:nth-child(7){position: absolute;z-index: 10;width: 36px;height: 36px;top: 8px;left: 50%;margin-left: 96px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 34px;font-size: 26px;text-align: center;}
+.blank_que{background: url(../img/quest_bg.png) 0 0 no-repeat !important;background-size: 100% 100% !important;}
+
+.cross_word_item .answer_tip{position: absolute;z-index: 10;width: 50%;height: 25px;left: 25%;line-height: 25px;text-align: center;color: #ff6d63;
+	bottom: 17%;font-weight: bold;margin-bottom: 65px;}
+.cross_word_item .hr_line{position: absolute;z-index: 10;width: 90%;height: 5px;background: #FFD742;left: 5%;bottom: 15%;margin-bottom: 60px;}
+.cross_word_item .answer_con{position: absolute;z-index: 10;width: 90%;height: 60px;left: 5%;bottom: 10%;}
+.answer_con .ans:nth-child(1){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -103px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;
+	transition: top 0.5s,left 0.3s;}
+.answer_con .ans:nth-child(2){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: -49px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;
+	transition: top 0.5s,left 0.3s;}
+.answer_con .ans:nth-child(3){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 5px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;
+	transition: top 0.5s,left 0.3s;}
+.answer_con .ans:nth-child(4){position: absolute;z-index: 10;width: 44px;height: 44px;top: 8px;left: 50%;margin-left: 59px;
+	background: url(../img/default_bg.png) 0 0 no-repeat;background-size: 100% 100%;line-height: 43px;font-size: 30px;text-align: center;
+	transition: top 0.5s,left 0.3s;}
+.choised_ans{background: url(../img/choise_bg.png) 0 0 no-repeat !important;background-size: 100% 100% !important;}
+.choised_quest{background: url(../img/choise_bg.png) 0 0 no-repeat !important;background-size: 100% 100% !important;}
+
+.cross_word_item .error_tip{position: absolute;z-index: 10;width: 80%;height: 50px;left: 10%;top: 62%;text-align: center;
+	line-height: 25px;color: #FF6D63;display: none;}
+/*测试结果*/
+.evalue_result{position: absolute;z-index: 50;width: 100%;height: 100%;top: 0;left: 0;box-sizing:border-box;border-top: 40px solid transparent;
+	background: #ffd742;}
+
+/*查看答案*/
+.answer{position: absolute;z-index: 50;width: 100%;height: 100%;top: 0;left: 0;box-sizing:border-box;border-top: 40px solid transparent;
+	display: block;background: #ffd742;}
+.answer .right_ans_con{position: absolute;z-index: 10;width: 90%;height: 46%;left: 5%;top: 3%;border-radius: 25px;
+	background: url(../img/white_bg.png) 0 0 no-repeat;background-size: 100% 100%;}
+.answer .error_ans_con{position: absolute;z-index: 10;width: 90%;height: 46%;left: 5%;top: 51%;border-radius: 25px;
+	background: url(../img/white_bg.png) 0 0 no-repeat;background-size: 100% 100%;}
+.right_num_title,.error_num_title{position: absolute;z-index: 100;width: 70%;height: 30px;top: 0;left: 15%;line-height: 30px;}
+.right_num_title img,.error_num_title img{position: absolute;z-index: 1;width: 100%;height: 100%;top: 0;left: 0;}
+.s_rightnum_title,.s_errornum_title{position: absolute;z-index: 10;text-align: center;color: white;font-weight: 400;width: 100%;height: 30px;}
+.rightans_info_con,.errorans_info_con{position: absolute;z-index: 10;width: 100%;height: 100%;box-sizing:border-box;border-top: 30px solid transparent;
+	border-bottom: 5px solid transparent;overflow: auto;-webkit-overflow-scrolling:touch;-webkit-text-size-adjust:none;}
+.right_info_item{position: relative;z-index: 10;width: 90%;height: 45px;margin-left: 10%;margin-top: 5px;border-bottom: 1px #fff0b9 solid;}
+.error_info_item{position: relative;z-index: 10;width: 90%;height: 65px;margin-left: 10%;margin-top: 5px;border-bottom: 1px #fff0b9 solid;}
+.right_info_item .quest_info{position: absolute;z-index: 10;width: 100%;height: 20px;top: 0;left: 0;line-height: 20px;}
+.right_info_item .right_ans{position: absolute;z-index: 10;width: 90%;height: 20px;top: 20px;left: 0;line-height: 20px;padding-left: 20px;color: #009AEF;}
+.right_info_item .right_ans .blue_line{position: absolute;z-index: 10;width: 4px;height: 80%;top: 10%;left: 12px;background: #009aef;border-radius: 2px;}
+.error_info_item .quest_info{position: absolute;z-index: 10;width: 100%;height: 20px;top: 0;left: 0;line-height: 20px;}
+.error_info_item .right_ans{position: absolute;z-index: 10;width: 90%;height: 20px;top: 40px;left: 0;line-height: 20px;padding-left: 20px;color: #009AEF;}
+.error_info_item .right_ans .blue_line{position: absolute;z-index: 10;width: 4px;height: 80%;top: 10%;left: 12px;background: #009aef;border-radius: 2px;}
+.error_info_item .your_ans{position: absolute;z-index: 10;width: 90%;height: 20px;top: 20px;left: 0;line-height: 20px;padding-left: 20px;color: #FF6D63;}
+.error_info_item .your_ans .blue_line{position: absolute;z-index: 10;width: 4px;height: 80%;top: 10%;left: 12px;background: #009aef;border-radius: 2px;}
+
+.no_right{position: absolute;z-index: 10;width: 100%;height: 25px;text-align: center;top: 20%;display: none;}
+.all_right{position: absolute;z-index: 10;width: 100%;height: 25px;text-align: center;top: 20%;display: none;}
+
+.share{position: absolute;z-index: 1000;width: 100%;height: 100%;top: 0;left: 0;display: none;}
+.share_img{position: absolute;z-index: 100;width: 80%;height: auto;right: 0%;top: 0%;}
+
+@media screen and (min-width: 450px) {
+	#container{width: 320px;height: 568px;left: 50%;margin-left: -160px;top: 50%;margin-top: -284px;}
+}
+

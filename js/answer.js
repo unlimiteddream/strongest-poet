@@ -1,0 +1,24 @@
+$(function(){
+	//查看答案
+	$(".btn_look_ans").bind("click",function(){
+		handlerElm(".evalue_result");
+		handlerElm(".answer");
+		handlerElm(".btn_close");
+	});
+	//再来一次
+	$(".btn_again").bind("click",function(){
+		window.location.href = "index.html";
+	});
+	//关闭查看答案，返回二维码页
+	$(".btn_close").bind("click",function(){
+		handlerElm(".evalue_result");
+		handlerElm(".answer");
+		handlerElm(".btn_close");
+	});
+	$(".btn_share").bind("click",function(){
+		handlerElm(".share");
+	});
+	$(".share").bind("click",function(){
+		handlerElm(".share");
+	});
+})

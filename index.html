@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/animation.css"/>
+<link rel="stylesheet" type="text/css" href="css/delay.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<!--开始答题-->
+<title>青榄成长</title>
+</head>
+<body>
+<div id="container">
+	<!--顶部title栏+按钮-->
+	<div class="title_con">
+		<div class="btn_back"><img src="img/icon_back.png"/></div>
+		<div class="btn_close"><img src="img/icon_close.png"/></div>
+		<span class="s_title txt_content1">大家来找茬：找出错别字</span>
+	</div>
+	<!--答题main栏-->
+	<div class="main">
+		<div class="start_con" style="display: block;">
+			<div class="game_intro">
+				<img src="img/icon_pick_hole.png" class="icon_pick_hole"/><!--
+				<img src="img/pick_hole_intro.png" class="pick_hole_intro"/>-->
+			</div>
+			<img src="img/btn_start.png" class="btn_start_game"/>
+		</div>
+		<!--答题结构-->
+	</div>
+</div>
+<script src="js/jquery.js" ></script>
+<script src="js/common.js" ></script>
+<script src="js/crossword.js" ></script>
+<script>
+$(function(){
+	//设置标题
+	setTitle('大家来：一起来填字');
+	//绑定答题切换事件
+	bindEventListener();
+	//初始化答题结构
+	initElm(question);
+	//选择答案事件监听
+	answer();
+	//找错题，字点击事件监听
+	choiseQuestWord();
+});
+</script>
+</body>
